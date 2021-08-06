@@ -18,3 +18,18 @@ INFO    2021-08-06 16:42:15,556 [main] LOG:  - getInvalidLogin : invalid passwor
 INFO    2021-08-06 16:42:20,432 [main] LOG:  - getInvalidLogin : login button clicked
 INFO    2021-08-06 16:42:20,502 [main] LOG:  - getInvalidLogin : error message verified
 INFO    2021-08-06 16:42:20,507 [main] LOG:  - loginTC_002 : PASSED
+INFO    2021-08-06 17:20:02,927 [main] LOG:  - getValidLogin : username entered
+INFO    2021-08-06 17:20:03,030 [main] LOG:  - getValidLogin : password entered
+INFO    2021-08-06 17:20:14,300 [main] LOG:  - getValidLogin : login button clicked
+INFO    2021-08-06 17:20:14,445 [main] LOG:  - loginTC_001 : PASSED
+INFO    2021-08-06 17:20:16,560 [main] LOG:  - getLogout : logout clicked
+INFO    2021-08-06 17:20:17,335 [main] LOG:  - getInvalidLogin : invalid username entered
+INFO    2021-08-06 17:20:17,413 [main] LOG:  - getInvalidLogin : invalid password entered
+INFO    2021-08-06 17:20:22,165 [main] LOG:  - getInvalidLogin : login button clicked
+INFO    2021-08-06 17:20:22,249 [main] LOG:  - getInvalidLogin : error message verified
+INFO    2021-08-06 17:20:22,252 [main] LOG:  - loginTC_002 : PASSED
+INFO    2021-08-06 17:20:23,283 [main] LOG:  - getvalidUserInvalidPassword : invalid username entered
+INFO    2021-08-06 17:20:23,363 [main] LOG:  - getvalidUserInvalidPassword : invalid password entered
+INFO    2021-08-06 17:20:28,831 [main] LOG:  - getvalidUserInvalidPassword : login button clicked
+INFO    2021-08-06 17:20:28,890 [main] LOG:  - getvalidUserInvalidPassword : error message verified
+INFO    2021-08-06 17:20:28,892 [main] LOG:  - loginTC_003 : PASSED

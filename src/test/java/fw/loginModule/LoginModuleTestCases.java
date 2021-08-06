@@ -60,7 +60,7 @@ public class LoginModuleTestCases extends BaseClass {
 	
 	@Test(description = "Login With valid user and invalid password")
 	public void loginTC_003() throws Exception {
-		pom.getvalidUserInvalidPassword(testdata.putUserName(), testdata.putinvalidPassword());
+		pom.getValidUserInvalidPassword(testdata.putUserName(), testdata.putinvalidPassword());
 		PrintLog.getErrorLog("loginTC_003 : PASSED");
 	}
 

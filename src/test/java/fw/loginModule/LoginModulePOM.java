@@ -66,11 +66,11 @@ public class LoginModulePOM {
 		PrintLog.getInfoLog("getInvalidLogin : error message verified");
 	}
 	
-	public void getvalidUserInvalidPassword(String username, String Password) throws InterruptedException {
+	public void getValidUserInvalidPassword(String username, String Password) throws InterruptedException {
 		email_text.clear();
 		password_text.clear();
 		email_text.sendKeys(username);
-		PrintLog.getInfoLog("getvalidUserInvalidPassword : invalid username entered");
+		PrintLog.getInfoLog("getvalidUserInvalidPassword : valid username entered");
 		password_text.sendKeys(Password);
 		PrintLog.getInfoLog("getvalidUserInvalidPassword : invalid password entered");
 		Thread.sleep(3000);
