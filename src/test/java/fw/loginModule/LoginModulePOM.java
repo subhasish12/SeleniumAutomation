@@ -65,4 +65,18 @@ public class LoginModulePOM {
 		Assert.assertTrue(login_error.isDisplayed());
 		PrintLog.getInfoLog("getInvalidLogin : error message verified");
 	}
+	
+	public void getvalidUserInvalidPassword(String username, String Password) throws InterruptedException {
+		email_text.clear();
+		password_text.clear();
+		email_text.sendKeys(username);
+		PrintLog.getInfoLog("getvalidUserInvalidPassword : invalid username entered");
+		password_text.sendKeys(Password);
+		PrintLog.getInfoLog("getvalidUserInvalidPassword : invalid password entered");
+		Thread.sleep(3000);
+		login_button.click();
+		PrintLog.getInfoLog("getvalidUserInvalidPassword : login button clicked");
+		Assert.assertTrue(login_error.isDisplayed());
+		PrintLog.getInfoLog("getvalidUserInvalidPassword : error message verified");
+	}
 }
