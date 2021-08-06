@@ -1,5 +1,6 @@
 package fw.loginModule;
 
+import java.awt.event.KeyEvent;
 import java.io.IOException;
 import java.util.Properties;
 
@@ -57,11 +58,12 @@ public class LoginModuleTestCases extends BaseClass {
 		pom.getInvalidLogin(testdata.putinvalidUserName(), testdata.putinvalidPassword());
 		PrintLog.getErrorLog("loginTC_002 : PASSED");
 	}
-	
+
 	@Test(description = "Login With valid user and invalid password")
 	public void loginTC_003() throws Exception {
 		pom.getValidUserInvalidPassword(testdata.putUserName(), testdata.putinvalidPassword());
 		PrintLog.getErrorLog("loginTC_003 : PASSED");
+		// getKeyboardControl().keyPress(KeyEvent.VK_ENTER);
 	}
 
 	@AfterMethod

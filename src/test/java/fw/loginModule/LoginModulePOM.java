@@ -65,7 +65,7 @@ public class LoginModulePOM {
 		Assert.assertTrue(login_error.isDisplayed());
 		PrintLog.getInfoLog("getInvalidLogin : error message verified");
 	}
-	
+
 	public void getValidUserInvalidPassword(String username, String Password) throws InterruptedException {
 		email_text.clear();
 		password_text.clear();

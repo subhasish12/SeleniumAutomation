@@ -7,7 +7,6 @@
         <methods>
           <include name="closeBrowser"/>
           <include name="loginTC_002"/>
-          <include name="loginTC_001"/>
           <include name="startDriver"/>
           <include name="refreshPage"/>
           <include name="startBrowser"/>

@@ -1,5 +1,8 @@
 package fw.utilities;
 
+import java.awt.AWTException;
+import java.awt.Robot;
+import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -115,5 +118,11 @@ public class BaseClass {
 
 		JavascriptExecutor jse = (JavascriptExecutor) driver;
 		jse.executeScript("window.scrollTo(0,document.body.scrollHeight)");
+	}
+	
+	public static Robot getKeyboardControl() throws AWTException {
+
+		Robot robot = new Robot();
+		return robot;
 	}
 }
